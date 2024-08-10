@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,500&family=Open+Sans:wght@500&display=swap');
+
+
+* {
+    margin:0;
+    padding: 0;
+    text-align: center;
+}
+
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.destaque-texto {
+    color: #0075FF;
+}
+
+h1 {
+    font-size: 49px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+p {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid #ECEFF2;
+}
